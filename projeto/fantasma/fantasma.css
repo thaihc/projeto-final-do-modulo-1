@@ -19,7 +19,7 @@ a:hover {
 }
 
 body {
-  background: url(../../img/spooky-foggy-forest.jpg);
+  background: url(../../img/halloween-g4084a065c_1280.png);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -82,13 +82,13 @@ button {
   padding: 10px 20px;
   margin: 10px 0;
   align-self: center;
-  background: rgba(76, 113, 193, 0.5);
+  background: rgba(23, 40, 85, 0.5);
   border: none;
   border-radius: 10px;
 }
 
 footer {
-  background: rgba(76, 113, 193, 0.5);
+  background: rgba(23, 40, 85, 0.5);
   padding: 15px;
   color: white;
   text-align: center;

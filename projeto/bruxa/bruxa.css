@@ -1,68 +1,95 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-a{
-    color: inherit;
-    text-decoration: none;
+a {
+  color: inherit;
+  text-decoration: none;
+  font-family: "Creepster", cursive, Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  padding: 3px 0;
 }
 
-a:hover{
-    color: #993B04;
-    border: 3px solid #ccc;
-    background:#ccc ;
-
+a:hover {
+  color: #993b04;
+  font-size: 30px;
+  transition: 0.5s all;
 }
 
-body{
-    background: url(../../img/spooky-foggy-forest.jpg);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    background-origin: border-box;
+body {
+  background: url(../../img/spooky-foggy-forest.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-origin: border-box;
 }
 
-
-header{
-    margin-left: 30px;
-    text-align: center;
-    padding: 30px 0 20px;
-    font-family: 'Creepster', cursive;
-    font-size: 30px; 
-    color: #993B04;
+header {
+  margin-left: 30px;
+  text-align: center;
+  padding: 30px 0 20px;
+  font-family: "Creepster", cursive, Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  color: #993b04;
 }
 
 main {
-    min-height: 76vh;
-    display: flex;
-    flex-direction:column;
-    align-items:center;  
+  min-height: 76vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.conteudo{
-    max-width: 800px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items:flex-start;
-    text-align: start;
-    border: 4px solid white;
-    padding: 30px;
-    background: rgba(255,255,255, 0.5);
+.conteudo {
+  max-width: 900px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: start;
+  border: 1px solid white;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 30px;
 }
 
-.instrucoes{
-    color: white;
-    font-size: 20px;
-    font-family:'Creepster', cursive;
-    
+.titulo {
+  min-width: 450px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: #000000;
+  font-size: 25px;
+  font-family: "Creepster", cursive;
+  padding-bottom: 20px;
 }
 
-footer{
-    background: rgba(0,123,127,0.5);
-    padding: 20px;
-    color:white;
-    text-align: center;
+.titulo img {
+  width: 80px;
+}
+
+.instrucoes {
+  color: black;
+  font-size: 20px;
+  font-family: "Nunito", sans-serif, Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px 0;
+  align-self: center;
+  background: rgba(76, 113, 193, 0.5);
+  border: none;
+  border-radius: 10px;
+}
+
+footer {
+  background: rgba(76, 113, 193, 0.5);
+  padding: 20px;
+  color: white;
+  text-align: center;
 }

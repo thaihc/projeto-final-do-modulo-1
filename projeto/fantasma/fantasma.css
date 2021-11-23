@@ -43,7 +43,7 @@ main {
 }
 
 .conteudo {
-  max-width: 900px;
+  max-width: 950px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;

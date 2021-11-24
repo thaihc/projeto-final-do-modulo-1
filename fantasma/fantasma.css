@@ -84,8 +84,17 @@ button {
   margin: 10px 0;
   align-self: center;
   background: rgba(23, 40, 85, 0.5);
+  font-family: "Creepster", cursive, Arial, Helvetica, sans-serif;
+  font-size: 25px;
   border: none;
   border-radius: 10px;
+}
+
+button:hover {
+  color: #993b04;
+  font-size: 30px;
+  cursor: pointer;
+  transition: 0.5s all;
 }
 
 footer {

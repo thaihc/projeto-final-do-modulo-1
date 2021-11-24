@@ -19,7 +19,7 @@ a:hover {
 }
 
 body {
-  background: url(../../img/spooky-foggy-forest.jpg);
+  background: url(../img/spooky-foggy-forest.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;

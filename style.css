@@ -15,7 +15,7 @@ a p:hover {
 }
 
 body {
-  background: url(../img/7507w/prancheta-4.jpg);
+  background: url(./img/7507w/prancheta-4.jpg);
   background-size: cover;
   background-position: bottom;
   background-attachment: fixed;

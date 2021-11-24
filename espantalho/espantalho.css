@@ -117,19 +117,23 @@ footer {
     width: 100vw;
     margin: 0;
   }
+
   main {
     min-height: 80vh;
     align-items: flex-start;
   }
+
   .conteudo {
     width: 100%;
     margin: 0;
     align-items: flex-start;
     border-radius: 0;
   }
+
   .titulo {
     min-width: 0;
   }
+
   .instrucoes {
     display: flex;
     flex-direction: column;

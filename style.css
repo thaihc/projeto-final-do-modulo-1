@@ -30,6 +30,7 @@ header {
   font-size: 30px;
   color: #993b04;
 }
+
 main {
   min-height: 76vh;
   display: flex;
@@ -79,13 +80,15 @@ footer {
 @media (max-width: 770px) {
   main {
     min-height: 80vh;
-    align-items: flex-start;
+    align-items: center;
   }
 
   .texto {
     width: 100%;
     margin: 0;
+    border-radius: 0;
   }
+
   .icons {
     min-width: 0;
     width: 100%;
@@ -93,9 +96,11 @@ footer {
     display: flex;
     flex-direction: column;
   }
+
   .icons img {
     width: 100px;
   }
+
   .personagens {
     margin-bottom: 15%;
   }

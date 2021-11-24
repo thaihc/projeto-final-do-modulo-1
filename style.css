@@ -79,6 +79,7 @@ footer {
 @media (max-width: 770px) {
   body {
     background-size: cover;
+    background-attachment: local;
   }
 
   .icons {

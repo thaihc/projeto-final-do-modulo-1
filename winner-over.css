@@ -46,6 +46,10 @@ main {
   font-family: "Creepster", cursive, Arial, Helvetica, sans-serif;
   padding-bottom: 10px;
 }
+
+.texto img {
+  width: 200px;
+}
 span a {
   color: inherit;
   text-decoration: none;

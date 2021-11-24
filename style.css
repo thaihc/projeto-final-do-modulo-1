@@ -12,6 +12,7 @@ a {
 a p:hover {
   color: #993b04;
   font-size: 25px;
+  transition: 1s all;
 }
 
 body {
